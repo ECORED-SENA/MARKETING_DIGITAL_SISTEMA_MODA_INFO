@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED-BASE-2021](https://ecored-sena.github.io/ECORED-BASE-2021)
+[https://ecored-sena.github.io/MARKETING_DIGITAL_SISTEMA_MODA_INFO](https://ecored-sena.github.io/MARKETING_DIGITAL_SISTEMA_MODA_INFO)
 
 #
 
