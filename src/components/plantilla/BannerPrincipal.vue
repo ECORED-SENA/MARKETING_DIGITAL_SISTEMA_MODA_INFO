@@ -12,27 +12,27 @@
         .banner-principal__datos
           ul
             li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Nombre del programa: 
+              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Nombre del programa:
               p.banner-principal__datos__item__texto {{globalData.nombrePrograma}}
             li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Código: 
+              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Código:
               p.banner-principal__datos__item__texto {{globalData.codigo}}
             li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Total Horas: 
+              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Total Horas:
               p.banner-principal__datos__item__texto {{globalData.horas}} hora{{globalData.horas > 1 ? 's':''}}
             li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Duración en meses: 
+              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Duración en meses:
               p.banner-principal__datos__item__texto {{globalData.semanas}}
             li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Modalidad: 
+              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Modalidad:
               p.banner-principal__datos__item__texto {{globalData.modalidad}}
-            li.mb-3.banner-principal__datos__item
-              p.h6.mb-0.me-3.banner-principal__datos__item__titulo Requisito de ingreso: 
-              .banner-principal__datos__item__texto
-                ul.lista-ul
-                  li(v-for="(item,index) in globalData.requisitosIngrso" :key="'req-'+index")
-                    i.lista-ul__vineta
-                    p {{item}}
+            //- li.mb-3.banner-principal__datos__item
+            //-   p.h6.mb-0.me-3.banner-principal__datos__item__titulo Requisito de ingreso:
+            //-   .banner-principal__datos__item__texto
+            //-     ul.lista-ul
+            //-       li(v-for="(item,index) in globalData.requisitosIngrso" :key="'req-'+index")
+            //-         i.lista-ul__vineta
+            //-         p {{item}}
 
       .d-none.d-lg-block.col-lg-5
         img(v-if="globalData.imagenBannerPrincipal" :src="globalData.imagenBannerPrincipal")
