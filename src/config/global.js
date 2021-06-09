@@ -3,13 +3,13 @@ export const global = {
   codigo: '135329',
   horas: 2208,
   semanas: '15 meses',
-  modalidad: 'Virtual',
-  requisitosIngrso: [
-    'Solicitud de las Instituciones del Sistema General de Seguridad Social en Salud.',
-    'Profesionales, tecnólogos y técnicos de salud que brindan atención a las víctimas de ataque con agentes químicos.',
-    'Cumplir con el trámite de selección definido por el Centro de Formación.',
-    'Se requiere que el aprendiz AVA (Ambientes Virtuales de Aprendizaje) tenga dominio de elementos básicos en el manejo de herramientas informáticas y de comunicación como correo electrónico, chat, procesadores de texto, software para presentaciones, navegadores de Internet, y otros sistemas y herramientas tecnológicas necesarias para la formación virtual.',
-  ],
+  modalidad: 'virtual',
+  // requisitosIngrso: [
+  //   'Solicitud de las Instituciones del Sistema General de Seguridad Social en Salud.',
+  //   'Profesionales, tecnólogos y técnicos de salud que brindan atención a las víctimas de ataque con agentes químicos.',
+  //   'Cumplir con el trámite de selección definido por el Centro de Formación.',
+  //   'Se requiere que el aprendiz AVA (Ambientes Virtuales de Aprendizaje) tenga dominio de elementos básicos en el manejo de herramientas informáticas y de comunicación como correo electrónico, chat, procesadores de texto, software para presentaciones, navegadores de Internet, y otros sistemas y herramientas tecnológicas necesarias para la formación virtual.',
+  // ],
   // imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
   videoBannerPrincipal:
     '<iframe data-v-1f9e4816="" width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>',
@@ -267,44 +267,6 @@ export const creditos = {
       centro: 'Centro Industrial Del Diseño Y La Manufactura',
       regional: 'Regional Santander',
     },
-    {
-      nombre: 'Tania Yaneth Ramírez Benítez',
-      cargo: 'Soporte organizacional',
-      centro: 'Centro de Comercio y Servicios',
-      regional: 'Regional Tolima',
-    },
-    {
-      nombre: 'Claudia Patricia Sánchez Peñaranda',
-      cargo: 'Instructora',
-      centro: 'AgroSENA',
-    },
-    {
-      nombre: 'Fredy Orlando Ibáñez Morales',
-      cargo: 'Instructor',
-      centro: 'Agroambiental',
-    },
-    {
-      nombre: 'Yanet Bolaños Botina',
-      cargo: 'Instructora',
-      centro: 'Agroambiental',
-    },
-    {
-      nombre: 'Alix Cecilia Chinchilla Rueda',
-      cargo: 'Diseñadora instruccional',
-      centro: 'Centro de Gestión Industrial',
-    },
-    {
-      nombre: 'Julia Isabel Roberto',
-      cargo: 'Diseñadora y evaluadora instruccional',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'María Isabel Román Rueda',
-      cargo: 'Revisora de estilo',
-      centro: 'Centro Industrial Del Diseño Y La Manufactura',
-      regional: 'Regional Santander',
-    },
   ],
   desarrolloProducto: [
     {
@@ -314,14 +276,6 @@ export const creditos = {
     {
       nombre: 'Leyson Fabian Castaño Perez',
       cargo: 'Soporte organizacional',
-    },
-    {
-      nombre: ['María Natalia Maldonado Delgado', 'persona prod audiovisual'],
-      cargo: 'Diseño web y Producción Audiovisual',
-    },
-    {
-      nombre: 'Luis Gabriel Urueta Alvarez',
-      cargo: 'Desarrollo Front-End',
     },
     {
       centro: 'Centro Industrial del Diseño y la Manufactura',
