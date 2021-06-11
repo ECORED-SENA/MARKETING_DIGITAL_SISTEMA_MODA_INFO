@@ -6,7 +6,7 @@ section
     .titulo__template--a.mb-4
       span.h6 1. Presentación
 
-    p Apreciado aprendiz, bienvenido al curso Marketing digital para el sistema moda, una experiencia de aprendizaje que se inmiscuye en el mundo comercial, comunicativo y de las formas de vestir. Con la intención de reconocer el contexto de aprendizaje.
+    p Apreciado aprendiz, bienvenido al curso Marketing digital para el sistema moda, una experiencia de aprendizaje que se inmiscuye en el mundo comercial, comunicativo y de las formas de vestir. Con la intención de reconocer el contexto de aprendizaje, observe el video de información del programa.
 
 
   .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
