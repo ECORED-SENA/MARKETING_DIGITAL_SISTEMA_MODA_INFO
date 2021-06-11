@@ -259,7 +259,7 @@ export const creditos = {
   liderEquipo: {
     nombre: 'Maria Camila Garcia Santamaria',
     cargo: 'Líder del equipo',
-    centro: 'Dirección General'
+    centro: 'Dirección General',
   },
   contenidoInstruccional: [
     {
