@@ -325,7 +325,7 @@ export const creditos = {
     {
       nombre: [
         'Junior Gilberto Rodriguez Rodriguez',
-        'Nelson Vera Briceño'
+        'Nelson Vera Briceño',
       ],
       cargo: 'Producción audiovisual',
       centro: 'Centro Industrial del Diseño y la Manufactura',
