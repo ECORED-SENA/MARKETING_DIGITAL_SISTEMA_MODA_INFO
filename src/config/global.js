@@ -323,10 +323,7 @@ export const creditos = {
       regional: 'Regional Tolima',
     },
     {
-      nombre: [
-        'Junior Gilberto Rodriguez Rodriguez',
-        'Nelson Vera Briceño',
-      ],
+      nombre: ['Junior Gilberto Rodriguez Rodriguez', 'Nelson Vera Briceño'],
       cargo: 'Producción audiovisual',
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
