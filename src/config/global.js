@@ -317,22 +317,14 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Zuleidy Maria Ruiz Torres',
+      nombre: [
+        'Zuleidy Maria Ruiz Torres',
+        'Junior Gilberto Rodriguez Rodriguez',
+        'Nelson Vera Briceño',
+      ],
       cargo: 'Producción audiovisual',
       centro: 'Centro de Comercio y Servicios',
       regional: 'Regional Tolima',
-    },
-    {
-      nombre: 'Junior Gilberto Rodriguez Rodriguez',
-      cargo: 'Producción audiovisual',
-      centro: 'Centro Industrial del Diseño y la Manufactura',
-      regional: 'Regional Santander',
-    },
-    {
-      nombre: 'Nelson Vera Briceño',
-      cargo: 'Producción audiovisual',
-      centro: 'Centro Industrial del Diseño y la Manufactura',
-      regional: 'Regional Santander',
     },
     {
       nombre: 'Sergio Omar Camacho Orduz',
