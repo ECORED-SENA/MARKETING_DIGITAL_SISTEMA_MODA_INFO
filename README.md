@@ -2,4 +2,4 @@
 
 ## **Enlace GitHubPages**
 
-[https://github.com/ECORED-SENA/MARKETING_DIGITAL_SISTEMA_MODA_INFO](https://github.com/ECORED-SENA/MARKETING_DIGITAL_SISTEMA_MODA_INFO)
+[https://ecored-sena.github.io/MARKETING_DIGITAL_SISTEMA_MODA_INFO](https://ecored-sena.github.io/MARKETING_DIGITAL_SISTEMA_MODA_INFO)
