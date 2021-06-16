@@ -1,17 +1,51 @@
 <template lang="pug">
 section
-  BannerPrincipal.mb-5
+  .banner-principal.mb-5
+    .container.tarjeta.p-4.p-sm-5(
+    :style="{'background-image': `url(${globalData.fondoBannerPrincipal})`}"
+  )
+      .row.justify-content-around.align-items-center
+        .col-lg-7.col-xxl-6.banner-principal__info
+          .banner-principal__programa
+            .h1.mb-0 MARKETING DIGITAL PARA EL SISTEMA MODA
 
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+
+          .h2 Información del programa
+          .banner-principal__datos
+            ul
+              li.mb-1.banner-principal__datos__item
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Nombre del programa:
+                p.banner-principal__datos__item__texto Marketing digital para el sistema moda
+              li.mb-1.banner-principal__datos__item
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Código:
+                p.banner-principal__datos__item__texto 135329
+              li.mb-1.banner-principal__datos__item
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Total Horas:
+                p.banner-principal__datos__item__texto 2208 Horas
+              li.mb-1.banner-principal__datos__item
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Duración en semanas:
+                p.banner-principal__datos__item__texto 15 meses
+              li.mb-1.banner-principal__datos__item
+                p.h6.mb-0.me-3.banner-principal__datos__item__titulo Modalidad:
+                p.banner-principal__datos__item__texto virtual
+
+
+        .d-none.d-lg-block.col-lg-5
+          //- img(src="@/assets/curso/banner-princiapal.svg")
+          .video
+            | <iframe data-v-1f9e4816="" width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe>
+
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 1. Presentación
+      span.h4 1. Presentación
 
     p Apreciado aprendiz, bienvenido al curso Marketing digital para el sistema moda, una experiencia de aprendizaje que se inmiscuye en el mundo comercial, comunicativo y de las formas de vestir. Con la intención de reconocer el contexto de aprendizaje, observe el video de información del programa.
 
 
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 2. Justificación<br>del programa
+      span.h4 2. Justificación<br>del programa
 
     p.mb-4 Las empresas del sector moda, como industria que crece día a día, requieren de una constante actualización, con el fin de adaptar sus procesos a los retos que implican los nuevos tiempos. Por ello, se ha hecho necesario buscar diversas alternativas para generar desarrollo con los elementos que se tiene al alcance.
 
@@ -20,9 +54,9 @@ section
     p Con el fin de mejorar la competitividad de la industria nacional a través de un mejor posicionamiento en el mercado, es como se hace necesaria la formación en la incorporación, uso y seguimiento del marketing digital, pensado desde el contexto empresarial, el cual será la herramienta para generar valor y, a su vez, transformación social y productiva.
 
 
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 3. Competencias<br>a desarrollar
+      span.h4 3. Competencias<br>a desarrollar
 
     ul.lista-ul.mb-4
       li.d-flex
@@ -62,30 +96,25 @@ section
         i.fas.fa-angle-right
         | Utilizar herramientas informáticas de acuerdo con las necesidades de manejo de información.
 
-    //- p
-    //-   span.colorText01
-    //-     strong 220601041.
-    //-   | Implementar sistemas de gestión según normativa y requerimientos técnicos.
 
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 4. Perfil<br>de ingreso
+      span.h4 4. Perfil<br>de ingreso
 
     p El programa está dirigido a toda la población que se desenvuelve en el sector moda y tiene la necesidad de desarrollar habilidades para el marketing digital.
       br
       | La persona que ingresa al programa debe contar con certificación académica de grado noveno de bachillerato, la edad mínima requerida por la ley es de 14 años. De igual manera, el aspirante se debe desenvolver en los tres saberes: cognitivo (saber saber), aptitudinal, destrezas y habilidades (saber hacer) y personal (saber ser).
 
 
-
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 5. Perfil<br>de egreso
+      span.h4 5. Perfil<br>de egreso
 
     p El egresado de este programa será responsable de apoyar a los administradores del proceso de marketing digital en el manejo y la construcción de las comunidades online en empresas del sector moda, a partir de la identidad e imagen de la marca, el conocimiento del producto y las relaciones con los clientes y seguidores de las redes sociales, de forma ética y responsable.
 
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.pb-sm-5.mb-5
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
-      span.h6 6. Estrategia<br>metodológica
+      span.h4 6. Estrategia<br>metodológica
 
     p.mb-4 La estrategia metodológica está centrada en la construcción de autonomía para garantizar la calidad en el marco de la formación por competencias, el aprendizaje por proyectos, el uso de herramientas digitales y la aplicación de técnicas didácticas activas que estimulan el pensamiento para la resolución de problemas simulados y reales. Estas actividades están soportadas en la utilización de las Tecnologías de la Información y la Comunicación (TIC), integradas en ambientes virtuales de aprendizaje, que, en todo caso, recrean el contexto productivo y vinculan al aprendiz con la realidad cotidiana y el desarrollo de las competencias.
 
@@ -113,40 +142,25 @@ section
         p.text-center
           strong El trabajo colaborativo
 
-  //- Créditos
-  .container.tarjeta.tarjeta__template--azul-claro.px-3.py-4.px-sm-5.mb-5
-    .titulo__template--a.mb-4
-      span.h6 Créditos
 
-    CreditosComp
+  //- Créditos
+  .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
+    .titulo__template--a.mb-4
+      span.h4 Créditos
+
+    Creditos
 
   Footer
 
-
 </template>
 <script>
-import { menuPrincipal } from '../config/global'
-import BannerPrincipal from '../components/plantilla/BannerPrincipal'
-import CreditosComp from '../components/plantilla/CreditosComp'
-import Footer from '../components/plantilla/Footer'
+import global from '../config/global'
 export default {
   name: 'Inicio',
-  components: {
-    BannerPrincipal,
-    CreditosComp,
-    Footer,
-  },
   data: () => ({
-    menuPrincipalData: menuPrincipal,
+    globalData: global.global,
   }),
-  computed: {
-    desarrolloContenidosData() {
-      const allMenuData = [
-        ...this.menuPrincipalData.menu,
-        ...this.menuPrincipalData.subMenu,
-      ]
-      return allMenuData.filter(item => item.desarrolloContenidos)
-    },
-  },
 }
 </script>
+
+<style lang="sass"></style>
