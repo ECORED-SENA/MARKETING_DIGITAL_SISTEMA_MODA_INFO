@@ -1,5 +1,5 @@
-# **Acercamiento a la metodología STEM: ideas para implementarla**
+# **Marketing Digital del Sistema de Moda**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ACERCAMIENTO_METODOLOGIA_STEM_INFO](https://ecored-sena.github.io/ACERCAMIENTO_METODOLOGIA_STEM_INFO)
+[https://github.com/ECORED-SENA/MARKETING_DIGITAL_SISTEMA_MODA_INFO](https://github.com/ECORED-SENA/MARKETING_DIGITAL_SISTEMA_MODA_INFO)
