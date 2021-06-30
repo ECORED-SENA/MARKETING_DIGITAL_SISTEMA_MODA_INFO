@@ -7,10 +7,10 @@ section
       .row.justify-content-around.align-items-center
         .col-lg-7.col-xxl-6.banner-principal__info
           .banner-principal__programa
-            .h1.mb-0 MARKETING DIGITAL PARA EL SISTEMA MODA
+            .h1.mb-0.text-black MARKETING DIGITAL PARA EL SISTEMA MODA
 
 
-          .h2 Información del programa
+          .h2.text-black Información del programa
           .banner-principal__datos
             ul
               li.mb-1.banner-principal__datos__item
