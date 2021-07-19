@@ -1,1 +1,1 @@
-module.exports = 'Acercamiento a la metodología STEM: que es e ideas para implementarla'
+module.exports = 'Marketing digital para el sistema de moda'
