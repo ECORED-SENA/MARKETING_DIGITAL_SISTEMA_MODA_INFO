@@ -7,7 +7,7 @@ section
       .row.justify-content-around.align-items-center
         .col-lg-7.col-xxl-6.banner-principal__info
           .banner-principal__programa
-            .h1.mb-0.text-black MARKETING DIGITAL PARA EL SISTEMA MODA
+            .h1.mb-0.text-black <i>MARKETING</i> DIGITAL PARA EL SISTEMA MODA
 
 
           .h2.text-black Información del programa
@@ -15,7 +15,7 @@ section
             ul
               li.mb-1.banner-principal__datos__item
                 p.h6.mb-0.me-3.banner-principal__datos__item__titulo Nombre del programa:
-                p.banner-principal__datos__item__texto Marketing digital para el sistema moda
+                p.banner-principal__datos__item__texto <i>Marketing</i> digital para el sistema moda
               li.mb-1.banner-principal__datos__item
                 p.h6.mb-0.me-3.banner-principal__datos__item__titulo Código:
                 p.banner-principal__datos__item__texto 135329
@@ -51,7 +51,7 @@ section
 
     p.mb-4 Con la convergencia de medios en esta era digital y la rápida evolución y obsolescencia de la tecnología, se han generado nuevas maneras de concebir, crear, distribuir, comercializar y consumir los contenidos y productos propios de este sector. La interactividad que actualmente existe entre el público y los contenidos, que en los medios análogos tradicionales no se manifestaba de manera tan libre e inmediata, ahora, en los medios digitales, es una nueva posibilidad que las industrias creativas están llamadas a integrar en sus diferentes procesos.
 
-    p Con el fin de mejorar la competitividad de la industria nacional a través de un mejor posicionamiento en el mercado, es como se hace necesaria la formación en la incorporación, uso y seguimiento del marketing digital, pensado desde el contexto empresarial, el cual será la herramienta para generar valor y, a su vez, transformación social y productiva.
+    p Con el fin de mejorar la competitividad de la industria nacional a través de un mejor posicionamiento en el mercado, es como se hace necesaria la formación en la incorporación, uso y seguimiento del <i>marketing</i> digital, pensado desde el contexto empresarial, el cual será la herramienta para generar valor y, a su vez, transformación social y productiva.
 
 
   .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
@@ -101,7 +101,7 @@ section
     .titulo__template--a.mb-4
       span.h4 4. Perfil<br>de ingreso
 
-    p El programa está dirigido a toda la población que se desenvuelve en el sector moda y tiene la necesidad de desarrollar habilidades para el marketing digital.
+    p El programa está dirigido a toda la población que se desenvuelve en el sector moda y tiene la necesidad de desarrollar habilidades para el <i>marketing</i> digital.
       br
       | La persona que ingresa al programa debe contar con certificación académica de grado noveno de bachillerato, la edad mínima requerida por la ley es de 14 años. De igual manera, el aspirante se debe desenvolver en los tres saberes: cognitivo (saber saber), aptitudinal, destrezas y habilidades (saber hacer) y personal (saber ser).
 
@@ -110,7 +110,7 @@ section
     .titulo__template--a.mb-4
       span.h4 5. Perfil<br>de egreso
 
-    p El egresado de este programa será responsable de apoyar a los administradores del proceso de marketing digital en el manejo y la construcción de las comunidades online en empresas del sector moda, a partir de la identidad e imagen de la marca, el conocimiento del producto y las relaciones con los clientes y seguidores de las redes sociales, de forma ética y responsable.
+    p El egresado de este programa será responsable de apoyar a los administradores del proceso de <i>marketing</i> digital en el manejo y la construcción de las comunidades online en empresas del sector moda, a partir de la identidad e imagen de la marca, el conocimiento del producto y las relaciones con los clientes y seguidores de las redes sociales, de forma ética y responsable.
 
   .container.tarjeta.tarjeta__template--azul-claro.p-4.p-md-5.mb-5
     .titulo__template--a.mb-4
